@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap{
+    width: 100%;
+}
+
+header, section, footer{
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #fff;
+}
+
+.in_header, .container, .in_footer{
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    top: 0; left: 0;
+    z-index:999999;
+}
+
+.head{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.76);
+    backdrop-filter: blur(6px);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.048);
+    transition: 1s;
+}
+
+.in_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+.menu_wrap{
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    font-weight: 700;
+    font-size: 20px;
+    color: #666;
+    letter-spacing: -0.8px;
+    transition: 0.1s;
+}
+
+.menu:hover{
+    color: #85c00d;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    height:300px;
+    background-color:#77855b;
+}
+
+
+.in_footer{
+    width:870px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftext{
+    font-size:14px;
+    font-weight:400;
+    line-height:24px;
+    letter-spacing: -1px;
+    color:#fff;
+}
+
+.copy{
+    font-size: 12px;
+    font-weight: 100;
+    color:#fff;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
